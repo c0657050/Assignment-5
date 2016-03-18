@@ -14,11 +14,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.annotation.ManagedBean;
+import javax.faces.bean.SessionScoped;
 
 /**
  *
  * @author c0667381
  */
+@ManagedBean
+@SessionScoped
 public class Posts {
 
     private List<Post> posts;

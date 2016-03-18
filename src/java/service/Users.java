@@ -14,11 +14,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.annotation.ManagedBean;
+import javax.faces.bean.SessionScoped;
 
 /**
  *
  * @author Toshif Sheikh
  */
+@ManagedBean
+@SessionScoped
 public class Users {
 
     private List<User> users;
